@@ -15,7 +15,7 @@
             <li
               class="border-b-2 border-transparent text-base hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
               :class="[
-                chackHome ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+                checkHome ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
               ]"
             >
               <router-link to="/" class="hover:border-b-2 border-red-700">
