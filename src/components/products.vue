@@ -76,10 +76,10 @@
             class="font-normal tracking-normal text-gray-500 mt-3"
             style="font-size: 16px"
           >
-            <span
-              >Our Web App makes it possible to check the import duty and vehicle
-              information about any vehicle you would like to import into Ghana stress
-              free and all in one space.</span
+            <span>
+              Trippify is an online booking platform for experience, tour and ticketing
+              businesses. Trippify is to makes it easy for you to create and book
+              experiences.</span
             >
           </p>
           <button
