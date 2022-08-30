@@ -58,34 +58,70 @@
             </div>
           </div>
         </div>
-        <div
-          class="flex flex-col md:flex-row space-x-0 lg:space-x-20 space-y-10 md:space-y-0"
-        >
-          <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
-            <img src="../assets/@ Macbook Pro.png" class="w-full px-0 lg:px-10" alt="" />
-          </div>
-          <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
-            <h2
-              class="font-semibold tracking-tight leading-normal text-gray-900"
-              style="font-size: 24px"
-            >
-              Ghana Vehicle Import Duty Estimater
-            </h2>
-            <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-4 mt-5"
-            >
-              Our Web App makes it possible to check the import duty and vehicle
-              information about any vehicle you would like to import into Ghana stress
-              free and all in one space.
-            </p>
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-20">
+          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10">
+            <div class="w-full px-16 md:px-5 rounded-3xl">
+              <img
+                src="../assets/@ Macbook Pro.png"
+                class="w-full max-w-sm mx-auto"
+                alt=""
+              />
+            </div>
+            <div class="w-full h-full pl-0 flex flex-col justify-start relative">
+              <h2
+                class="font-semibold tracking-tight leading-normal text-gray-900"
+                style="font-size: 24px"
+              >
+                Ghana Vehicle Import Duty Estimater
+              </h2>
+              <p
+                class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-4 mt-5 max-w-md"
+              >
+                Our Web App makes it possible to check the import duty and vehicle
+                information about any vehicle you would like to import into Ghana stress
+                free and all in one space.
+              </p>
 
-            <a
-              href="https://ghanadutycalculator.com/estimates"
-              target="_blank"
-              class="w-1/2 md:w-48 text-center py-3 mt-1 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
-              style="background-color: #b00000"
-              ><span>Visit Website</span></a
-            >
+              <a
+                href="https://ghanadutycalculator.com/estimates"
+                target="_blank"
+                class="w-1/2 md:w-48 text-center py-3 mt-1 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
+                style="background-color: #b00000"
+                ><span>Visit Website</span></a
+              >
+            </div>
+          </div>
+          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10">
+            <div class="w-full px-16 md:px-5 rounded-3xl">
+              <img
+                src="../assets/trippify.webp"
+                class="w-full px-0 max-w-sm mx-auto"
+                alt=""
+              />
+            </div>
+            <div class="w-full pl-0 flex flex-col justify-center">
+              <h2
+                class="font-semibold tracking-tight leading-normal text-gray-900"
+                style="font-size: 24px"
+              >
+                Trippify
+              </h2>
+              <p
+                class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-4 mt-5 max-w-md"
+              >
+                Trippify is an online booking platform for experience, tour and ticketing
+                businesses. Trippify is to makes it easy for you to create and book
+                experiences.
+              </p>
+
+              <a
+                href="https://trippify.appgharage.com"
+                target="_blank"
+                class="w-1/2 md:w-48 text-center py-3 mt-1 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
+                style="background-color: #b00000"
+                ><span>Visit Website</span></a
+              >
+            </div>
           </div>
         </div>
       </div>
