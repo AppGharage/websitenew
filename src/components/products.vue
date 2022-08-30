@@ -17,16 +17,16 @@
       </p>
     </div>
 
-    <div class="space-y-10 md:space-y-0 md:grid md:gap-x-8 md:gap-y-10">
+    <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">
       <div
-        class="w-full lg:w-2/3 md:mx-auto rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col md:flex-row hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
+        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
       >
         <div
-          class="w-full md:w-1/2 h-full overflow-hidden flex items-center bg-gray-100 px-5 py-10"
+          class="w-full h-full overflow-hidden flex flex-col md:flex-row items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"
         >
-          <img src="../assets/@ Macbook Pro.png" class="my-auto w-full h-auto" alt="" />
+          <img src="../assets/@ Macbook Pro.png" class="w-[100px] h-auto" alt="laptop" />
         </div>
-        <div class="w-full md:w-1/2 px-5 py-0 md:py-5 md:p-10 bg-gray-100">
+        <div class="w-full px-5 py-0 md:py-5 md:p-8 pt-0 bg-gray-100">
           <h4
             class="font-semibold tracking-tight leading-normal text-gray-900 md:mt-0 cursor-default"
             style="font-size: 24px"
@@ -48,8 +48,45 @@
           <button
             class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-medium rounded-md"
             style="background-color: #b00000"
-            @click="dutyCalc()"
+            @click="dutyCalc('https://ghanadutycalculator.com/estimates')"
             title="ghanadutycalculater.com"
+          >
+            Visit Site
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
+      >
+        <div
+          class="w-full h-full overflow-hidden flex flex-col items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"
+        >
+          <img src="../assets/trippify.webp" class="w-[100px] h-auto" alt="laptop" />
+        </div>
+        <div class="w-full px-5 py-0 md:py-5 md:p-8 pt-0 bg-gray-100">
+          <h4
+            class="font-semibold tracking-tight leading-normal text-gray-900 md:mt-0 cursor-default"
+            style="font-size: 24px"
+            title="Ghana Vehicle Import Duty Estimater"
+          >
+            Trippify
+          </h4>
+
+          <p
+            class="font-normal tracking-normal text-gray-500 mt-3"
+            style="font-size: 16px"
+          >
+            <span
+              >Our Web App makes it possible to check the import duty and vehicle
+              information about any vehicle you would like to import into Ghana stress
+              free and all in one space.</span
+            >
+          </p>
+          <button
+            class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-medium rounded-md"
+            style="background-color: #b00000"
+            @click="dutyCalc('https://trippify.appgharage.com')"
+            title="trippify.appgharage.com"
           >
             Visit Site
           </button>
@@ -62,8 +99,8 @@
 <script>
 export default {
   methods: {
-    dutyCalc: function () {
-      window.open("https://ghanadutycalculator.com", "_blank");
+    dutyCalc: function (x) {
+      window.open(x, "_blank");
     },
   },
 };
