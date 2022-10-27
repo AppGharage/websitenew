@@ -56,7 +56,7 @@
         </div>
       </div>
       <div
-        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
+        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer hidden"
       >
         <div
           class="w-full h-full overflow-hidden flex flex-col items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"

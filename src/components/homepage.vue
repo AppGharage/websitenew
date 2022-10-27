@@ -91,7 +91,7 @@
               >
             </div>
           </div>
-          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10">
+          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10 hidden">
             <div class="w-full px-16 md:px-5 rounded-3xl">
               <img
                 src="../assets/trippify.webp"
