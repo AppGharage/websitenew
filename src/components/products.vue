@@ -42,7 +42,7 @@
             <span
               >Our Web App makes it possible to check the import duty and vehicle
               information about any vehicle you would like to import into Ghana stress
-              free and all in one space.</span
+              free and all in one space!</span
             >
           </p>
           <button
