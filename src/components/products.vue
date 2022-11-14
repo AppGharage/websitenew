@@ -13,7 +13,7 @@
         class="font-normal text-lg text-gray-500 tracking-normal text-left md:text-center"
         style="letter-spacing: 0.2px"
       >
-        Here are the products we have successfully built
+      We are Agile!! Checkout some of our inhouse developed products.
       </p>
     </div>
 

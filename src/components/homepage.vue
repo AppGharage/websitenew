@@ -15,17 +15,24 @@
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
           <div class="w-full lg:w-3/5 space-y-5">
             <h1
-              class="text-6xl tracking-tight font-black text-gray-900 sm:text-6xl md:text-6xl"
+              class="text-6xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-6xl"
             >
-              Premium Software Solutions for Your Business
+              Software Solutions and Software Consulting Experts
             </h1>
             <div class="pr-0 lg:pr-40">
               <p
-                class="mt-3 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 leading-7"
               >
-                AppGharage is your technology partner for innovative and impactful digital
-                solutions.
+                Building solutions is hard without the right team. We are the team for
+                you. You bring the idea, we do the thinking, andbring it to life
               </p>
+            </div>
+            <div class="h-20 pt-5">
+              <router-link
+                to="/contact"
+                class="px-5 py-3 text-white text-lg font-medium bg-red-700 rounded-lg"
+                >Contact Us</router-link
+              >
             </div>
           </div>
           <div class="w-full lg:w-2/5 mb-10 lg:mb-0">
@@ -37,7 +44,7 @@
           </div>
         </div>
       </div>
-
+      <Questions />
       <ourservicesVue />
       <whowearecompVue />
 
@@ -132,10 +139,12 @@
 <script>
 import ourservicesVue from "./ourservices.vue";
 import whowearecompVue from "./whowearecomp.vue";
+import Questions from "./questions.vue";
 export default {
   components: {
     ourservicesVue,
     whowearecompVue,
+    Questions,
   },
 };
 </script>

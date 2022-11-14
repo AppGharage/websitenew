@@ -17,9 +17,7 @@
       </div>
     </div>
     <div class="mt-5 md:mt-10">
-      <dl
-        class="space-y-10 lg:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-8 p-1"
-      >
+      <dl class="lg:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-8 p-1">
         <div class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100">
           <div>
             <div
@@ -34,15 +32,14 @@
               </p>
               <p class="ml-12 text-base text-gray-500 text-left">
                 Websites are an essential tool for your business to establish their
-                credibility and build trust with your customers. Website also help give
-                your customers the impression that your business is reliable.
+                credibility and build trust with your customers.
               </p>
             </div>
           </div>
         </div>
 
         <div
-          class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100 h-auto"
+          class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100 h-full"
         >
           <div class="h-full">
             <div
@@ -51,14 +48,13 @@
               <!-- Heroicon name: outline/scale -->
               <img src="../assets/pen 1 (1).svg" class="w-full" alt="ui and ux" />
             </div>
-            <div class="h-full space-y-2 flex flex-col justify-between">
+            <div class="h-full space-y-2 flex flex-col justify-start">
               <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
-                Visual Design
+                Customized Solutions
               </p>
               <p class="ml-12 text-base text-gray-500">
-                Ui/Ux is important to your company because it tries to fulfill the user's
-                needs when using your product. It aims to provide positive experiences
-                that keep a user loyal to your product or brand.
+                We develop the plan with you to create the best solution for your
+                business.
               </p>
             </div>
           </div>
@@ -78,8 +74,7 @@
               </p>
               <p class="mt-2 ml-12 text-base text-gray-500">
                 A software is important for automation of your organisation's tasks as
-                well as reporting the progress or lags in your company activities. This
-                improves company's efficiency and growth.
+                well as reporting the progress or lags in your company activities.
               </p>
             </div>
           </div>
@@ -93,14 +88,13 @@
               <!-- Heroicon name: outline/annotation -->
               <img src="../assets/support2 1.svg" class="w-full" alt="" />
             </div>
-            <div class="h-full space-y-2 flex flex-col justify-between">
+            <div class="h-full space-y-2 flex flex-col justify-start">
               <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
-                Consultancy Services
+                Consulting Services
               </p>
               <p class="mt-2 ml-12 text-base text-gray-500">
                 We provide the needed expertise in helping clients maximise their use of
-                technology for their business. We help transform and maximize the way you
-                use your technology.
+                technology for their business.
               </p>
             </div>
           </div>

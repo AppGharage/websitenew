@@ -9,9 +9,9 @@
             Why choose us?
           </h1>
           <h2
-            class="text-lg md:text-xl text-gray-500 text-left md:text-center mt:0 md:mt-2"
+            class="text-lg md:text-xl text-gray-500 text-left md:text-center mt:0 md:mt-2 max-w-xl mx-auto"
           >
-            What makes AppGharage better.
+          Our goal is to help you build your softwares with no stress. You do the idea thinking, we bring it to life.
           </h2>
         </div>
 
