@@ -60,7 +60,7 @@
               <h2
                 class="text-lg md:text-xl text-gray-500 text-left md:text-center mt-0 md:mt-2"
               >
-                Here are some of our latest projects
+                We are Agile!! Checkout some of our inhouse developed products
               </h2>
             </div>
           </div>
