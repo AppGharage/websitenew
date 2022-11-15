@@ -24,7 +24,7 @@
                 class="mt-3 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 leading-7"
               >
                 Building solutions is hard without the right team. We are the team for
-                you. You bring the idea, we do the thinking, andbring it to life
+                you. You bring the idea, we do the thinking, and bring it to life
               </p>
             </div>
             <div class="h-20 pt-5">
