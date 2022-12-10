@@ -46,7 +46,7 @@ export default {
           name: "Roberta Mawunyo Akoto",
           position: "Co-founder & Product Manager",
           bio:
-            "Robbie has close to 6 years of experience as a self taught software engineer and 4 years of experience working as a product manager at AppGharage. She is a tech enthusiast and community activist. She was also the co-lead of Meta Developer Circle, Accra from 2018 to 2020. ",
+            "Roberta has close to 6 years of experience as a self taught software engineer and 4 years of experience working as a product manager at AppGharage. She is a tech enthusiast and community activist. She was also the co-lead of Meta Developer Circle, Accra from 2018 to 2020. ",
           img: "https://avatars.githubusercontent.com/u/33154097?v=4",
         },
       ],

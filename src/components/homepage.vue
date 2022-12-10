@@ -98,10 +98,10 @@
               >
             </div>
           </div>
-          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10 hidden">
+          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10">
             <div class="w-full px-16 md:px-5 rounded-3xl">
               <img
-                src="../assets/trippify.webp"
+                src="../assets/trippify.png"
                 class="w-full px-0 max-w-sm mx-auto"
                 alt=""
               />
@@ -111,18 +111,17 @@
                 class="font-semibold tracking-tight leading-normal text-gray-900"
                 style="font-size: 24px"
               >
-                Trippify
+                Jolinow
               </h2>
               <p
                 class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-4 mt-5 max-w-md"
               >
-                Trippify is an online booking platform for experience, tour and ticketing
-                businesses. Trippify is to makes it easy for you to create and book
-                experiences.
+                Jolinow is an online booking platform for experience, tour and ticketing
+                businesses. Jolinow makes it easy for you to create and book experiences.
               </p>
 
               <a
-                href="https://trippify.appgharage.com"
+                href="https://jolinow.com"
                 target="_blank"
                 class="w-1/2 md:w-48 text-center py-3 mt-1 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
                 style="background-color: #b00000"

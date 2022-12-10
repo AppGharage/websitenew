@@ -13,13 +13,13 @@
         class="font-normal text-lg text-gray-500 tracking-normal text-left md:text-center"
         style="letter-spacing: 0.2px"
       >
-      We are Agile!! Checkout some of our inhouse developed products.
+        We are Agile!! Checkout some of our inhouse developed products.
       </p>
     </div>
 
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">
       <div
-        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
+        class="w-full rounded-xl overflow-hidden shadow border-1 transform hover:scale-105 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-all ease-linear delay-200 cursor-pointer"
       >
         <div
           class="w-full h-full overflow-hidden flex flex-col md:flex-row items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"
@@ -56,12 +56,12 @@
         </div>
       </div>
       <div
-        class="w-full rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer hidden"
+        class="w-full rounded-xl overflow-hidden shadow border-1 transform border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-all ease-linear delay-200 cursor-pointer hover:scale-105"
       >
         <div
           class="w-full h-full overflow-hidden flex flex-col items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"
         >
-          <img src="../assets/trippify.webp" class="w-[100px] h-auto" alt="laptop" />
+          <img src="../assets/trippify.png" class="w-[100px] h-auto" alt="laptop" />
         </div>
         <div class="w-full px-5 py-0 md:py-5 md:p-8 pt-0 bg-gray-100">
           <h4
@@ -69,7 +69,7 @@
             style="font-size: 24px"
             title="Ghana Vehicle Import Duty Estimater"
           >
-            Trippify
+            Jolinow
           </h4>
 
           <p
@@ -77,16 +77,16 @@
             style="font-size: 16px"
           >
             <span>
-              Trippify is an online booking platform for experience, tour and ticketing
-              businesses. Trippify is to makes it easy for you to create and book
+              Jolinow is an online booking platform for experience, tour and ticketing
+              businesses. Jolinow makes it easy for you to create and book
               experiences.</span
             >
           </p>
           <button
             class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-medium rounded-md"
             style="background-color: #b00000"
-            @click="dutyCalc('https://trippify.appgharage.com')"
-            title="trippify.appgharage.com"
+            @click="dutyCalc('https://jolinow.com')"
+            title="www.jolinow.com"
           >
             Visit Site
           </button>
