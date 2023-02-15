@@ -19,7 +19,7 @@
 
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">
       <div
-        class="w-full rounded-xl overflow-hidden shadow border-1 transform hover:scale-105 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-all ease-linear delay-200 cursor-pointer"
+        class="w-full rounded-xl overflow-hidden shadow border-1 hidden transform hover:scale-105 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-all ease-linear delay-200 cursor-pointer"
       >
         <div
           class="w-full h-full overflow-hidden flex flex-col md:flex-row items-start bg-gray-100 px-5 lg:px-10 py-10 pb-3"

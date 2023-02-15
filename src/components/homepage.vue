@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-20">
-          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10">
+          <div class="flex flex-col space-x-0 lg:space-x-20 space-y-10 hidden">
             <div class="w-full px-16 md:px-5 rounded-3xl">
               <img
                 src="../assets/@ Macbook Pro.png"
