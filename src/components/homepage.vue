@@ -2,10 +2,10 @@
   <div class="relative overflow-visible">
     <div class="absolute right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
       <!-- <img src="../assets/Rectangle.png" class="w-full" alt="" /> -->
-      <!-- <div
+      <div
         class="bg-blue-100 rounded-bl-full hidden lg:block"
         style="min-height: 900px; min-width: 800px"
-      ></div> -->
+      ></div>
     </div>
 
     <div
