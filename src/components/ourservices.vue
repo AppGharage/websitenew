@@ -1,13 +1,12 @@
 <template>
-  <div>
+  <div class="pt-10">
       <div class="mx-auto max-w-4xl p-10 px-0 text-center">
-      <h2 class="text-4xl font-bold leading-tight text-black">Our Services</h2>
-      <p class="mt-5 text-md text-gray-600">
-        At AppGharage, customer satisfaction is always our priority. We provide the best 
-        services with cutting edge technology. Our tech stack is constantly evolving.
-        If you’re interested in a particular technology - just ask, we’ve probably used it!
-      </p>
-    </div>
+        <h2 class="text-4xl font-bold leading-tight text-black">Our Services</h2>
+        <p class="mt-3 text-md text-gray-600">
+          At AppGharage, customer satisfaction is always our priority. We provide softwares for 
+          clients focusing on creating products the right way.
+        </p>
+      </div>
     <!-- <div class="flex mx-auto p-10 px-0 sm:px-6 lg:px-8 text-center">
         <h2 class="flex-none text-5xl font-bold leading-tight text-black mr-48">Our Services</h2>
         <p class="flex-initial w-1/2 text-md text-left text-gray-600">
@@ -21,7 +20,7 @@
     <div class="relative z-20 sm:z-auto mt-4">
       <div class="mx-auto max-w-container pb-16">
         <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
-          <div class="flex md:p-4">
+          <div class="flex mt-2">
             <img src="../assets/creative 1.svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
@@ -33,8 +32,8 @@
               </p>
             </div>
           </div>
-          <div class="flex md:p-4">
-              <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3">
+          <div class="flex mt-2">
+              <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3 ">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Mobile Application Development
@@ -44,7 +43,7 @@
               </p>
             </div>
           </div>
-          <div class="flex md:p-4">
+          <div class="flex mt-2">
             <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
@@ -56,7 +55,7 @@
               </p>
             </div>
           </div>
-          <div class="flex md:p-4">
+          <div class="flex mt-2">
             <img src="../assets/support2 1.svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">

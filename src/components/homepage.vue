@@ -2,33 +2,33 @@
   <div class="relative overflow-visible">
     <div class="absolute right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
       <!-- <img src="../assets/Rectangle.png" class="w-full" alt="" /> -->
-      <div
+      <!-- <div
         class="bg-blue-100 rounded-bl-full hidden lg:block"
         style="min-height: 900px; min-width: 800px"
-      ></div>
+      ></div> -->
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-5 z-10"
+      class="relative max-w-screen-2xl mx-auto px-5 md:px-5 z-10"
     >
-      <div class="w-full">
+      <div class="w-full mb-4">
         <div class="flex flex-col-reverse lg:flex-row items-center">
-          <div class="w-full lg:w-3/5 space-y-6 md:mt-40">
+          <div class="w-full lg:w-3/5 space-y-6 lg:mt-32 md:mt-10">
             <h2
-              class="text-4xl font-medium leading-normal text-gray-900 xl:max-w-[43.5rem]"
+              class="text-2xl lg:text-4xl lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
             >
               We are a team of qualified designers and developers with integrity from diverse
               backgrounds, who take responsibility and deliver the best quality work.
           </h2>
-            <div class="h-20 pt-5">
+            <div class="h-20 pt-5 hidden lg:block">
               <router-link
                 to="/contact"
-                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-lg"
-                >Contact Us</router-link
+                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
+                >Let's Talk !</router-link
               >
             </div>
           </div>
-          <div class="w-full lg:w-2/5 mb-10 lg:mb-0">
+          <div class="lg:w-2/5 m-2">
             <img
               src="../assets/heroimg.svg"
               class="w-full hidden lg:block"
@@ -37,9 +37,9 @@
           </div>
         </div>
       </div>
-      <Questions />
-      <ourservicesVue />
-      <whowearecompVue />
+      <ourservices />
+      <!-- <Questions /> -->
+      <whoweare />
 
       <!-- <div class="w-full space-y-10 md:space-y-10">
         <div class="bg-transparent">
@@ -129,14 +129,13 @@
 </template>
 
 <script>
-import ourservicesVue from "./ourservices.vue";
-import whowearecompVue from "./whowearecomp.vue";
-import Questions from "./questions.vue";
+import ourservices from "./ourservices.vue";
+import whoweare from "./whoweare.vue";
+// import Questions from "./questions.vue";
 export default {
   components: {
-    ourservicesVue,
-    whowearecompVue,
-    Questions,
+    ourservices,
+    whoweare,
   },
 };
 </script>
