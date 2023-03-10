@@ -29,7 +29,7 @@
                 checkAbout ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
               ]"
             >
-              <router-link to="/about"> About </router-link>
+              <router-link to="/about"> About us</router-link>
             </li>
             <li
               class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
@@ -44,8 +44,7 @@
           </ul>
           <router-link
             to="/contact"
-            class="px-6 py-3 font-medium text-base navlinks text-white rounded-md hover:shadow-md"
-            style="background-color: #b00000"
+            class="px-6 py-3 font-medium text-base navlinks text-white bg-blue-700 rounded-md hover:shadow-md"
             >Contact Us</router-link
           >
         </div>

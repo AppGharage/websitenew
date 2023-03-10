@@ -1,36 +1,29 @@
 <template>
-  <div class="relative z-10 overflow-visible">
-    <div class="absolute z-0 top-0 right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
-      <!--<img src="../assets/Rectangle.png" class="w-full" alt="" />-->
-      <div
-        class="bg-red-100 rounded-bl-full"
+  <div class="relative overflow-visible">
+    <div class="absolute right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
+      <!-- <img src="../assets/Rectangle.png" class="w-full" alt="" /> -->
+      <!-- <div
+        class="bg-blue-100 rounded-bl-full hidden lg:block"
         style="min-height: 900px; min-width: 800px"
-      ></div>
+      ></div> -->
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24 z-10 overflow-hidden"
+      class="relative max-w-screen-xl mx-auto px-5 md:px-5 z-10"
     >
-      <div class="w-full overflow-hidden">
-        <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
-          <div class="w-full lg:w-3/5 space-y-5">
-            <h1
-              class="text-6xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-6xl"
+      <div class="w-full">
+        <div class="flex flex-col-reverse lg:flex-row items-center">
+          <div class="w-full lg:w-3/5 space-y-6 md:mt-40">
+            <h2
+              class="text-4xl font-medium leading-normal text-gray-900 xl:max-w-[43.5rem]"
             >
-              Software Solutions and Software Consulting Experts
-            </h1>
-            <div class="pr-0 lg:pr-40">
-              <p
-                class="mt-3 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 leading-7"
-              >
-                Building solutions is hard without the right team. We are the team for
-                you. You bring the idea, we do the thinking, and bring it to life
-              </p>
-            </div>
+              We are a team of qualified designers and developers with integrity from diverse
+              backgrounds, who take responsibility and deliver the best quality work.
+          </h2>
             <div class="h-20 pt-5">
               <router-link
                 to="/contact"
-                class="px-5 py-3 text-white text-lg font-medium bg-red-700 rounded-lg"
+                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-lg"
                 >Contact Us</router-link
               >
             </div>
@@ -38,7 +31,7 @@
           <div class="w-full lg:w-2/5 mb-10 lg:mb-0">
             <img
               src="../assets/heroimg.svg"
-              class="w-full px-5 lg:px-0 hidden md:block"
+              class="w-full hidden lg:block"
               alt=""
             />
           </div>
@@ -48,7 +41,7 @@
       <ourservicesVue />
       <whowearecompVue />
 
-      <div class="w-full space-y-10 md:space-y-10">
+      <!-- <div class="w-full space-y-10 md:space-y-10">
         <div class="bg-transparent">
           <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
             <div class="lg:text-center">
@@ -57,11 +50,11 @@
               >
                 Projects
               </h1>
-              <h2
+              <p
                 class="text-lg md:text-xl text-gray-500 text-left md:text-center mt-0 md:mt-2"
               >
                 We are Agile!! Checkout some of our inhouse developed products
-              </h2>
+            </p>
             </div>
           </div>
         </div>
@@ -130,7 +123,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

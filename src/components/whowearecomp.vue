@@ -2,18 +2,30 @@
   <div>
     <div class="bg-white">
       <div class="max-w-7xl mx-auto px-0">
-        <div class="lg:text-center">
+        <!-- <div class="lg:text-center">
           <h1
             class="font-semibold tracking-normal font-gray-900 text-left md:text-center text-3xl md:text-4xl"
           >
-            Why choose us?
+            Why choose AppGharage?
           </h1>
           <h2
             class="text-lg md:text-xl text-gray-500 text-left md:text-center mt:0 md:mt-2 max-w-xl mx-auto"
           >
-          Our goal is to help you build your softwares with no stress. You do the idea thinking, we bring it to life.
+            AppGharage is here to assist you with all your digital objectives and enhancing your business.
+            With our world-class standard solution, your business will stand out from the others.
+            We help you envision your plan, we bring it to life.
           </h2>
-        </div>
+        </div> -->
+        <div class="bg-transparent w-full">
+       <div class="mx-auto max-w-4xl p-10 px-0 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold leading-tight text-black">Why choose AppGharage?</h2>
+        <p class="mt-5 text-md text-gray-600">
+          AppGharage is here to assist you with all your digital objectives and enhancing your business.
+            With our world-class standard solution, your business will stand out from the others.
+            We help you envision your plan, we bring it to life.
+        </p>
+      </div>
+    </div>
 
         <div class="flex flex-wrap -mx-3 overflow-hidden mt-5 md:mt-10">
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
