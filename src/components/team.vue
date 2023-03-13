@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2 class="font-semibold tracking-normal text-center text-gray-900 text-5xl mb-4">Meet our team</h2>
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-10">
       <div class="w-full flex gap-4" v-for="member in team" :key="member">
         <div class="w-32 h-32 overflow-hidden rounded-lg">

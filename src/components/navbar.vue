@@ -44,7 +44,7 @@
           </ul>
           <router-link
             to="/contact"
-            class="px-6 py-3 font-medium text-base navlinks text-white bg-blue-700 rounded-md hover:shadow-md"
+            class="px-6 py-3 font-medium text-base navlinks text-white bg-blue-700 hover:shadow-md rounded-br-2xl"
             >Contact Us</router-link
           >
         </div>
@@ -184,7 +184,7 @@
 
             <router-link to="/contact">
               <button
-                class="text-white w-full mt-4 mb-2 rounded-sm transition ease-linear delay-75 py-3 bg-blue-700 font-medium text-base text-center navlinks"
+                class="text-white w-full mt-4 mb-2 transition ease-linear delay-75 py-3 bg-blue-700 font-medium text-base text-center navlinks rounded-br-2xl"
               >
                 Contact Us
               </button>

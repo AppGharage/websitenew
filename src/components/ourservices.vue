@@ -32,7 +32,7 @@
               </p>
             </div>
           </div>
-          <div class="flex mt-2">
+          <div class="flex mt-4">
               <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3 ">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
@@ -43,7 +43,7 @@
               </p>
             </div>
           </div>
-          <div class="flex mt-2">
+          <div class="flex mt-4">
             <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
@@ -55,7 +55,7 @@
               </p>
             </div>
           </div>
-          <div class="flex mt-2">
+          <div class="flex mt-4">
             <img src="../assets/support2 1.svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">

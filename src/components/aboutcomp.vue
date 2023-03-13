@@ -3,10 +3,17 @@
     <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
       <div class="space-y-5 w-full md:w-1/2 flex flex-col">
         <div class="my-0 md:my-auto">
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase hidden">
-            About
+          <h2 class="text-4xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
+            We are a technology company creating world-class products.
           </h2>
-          <h1
+          <div class="h-20 pt-10">
+              <router-link
+                to="/contact"
+                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
+                >Let's Talk !</router-link
+              >
+          </div>
+          <!-- <h1
             class="font-bold text-gray-900 text-left leading-10"
             style="font-size: 40px; letter-spacing: 0.1px"
           >
@@ -25,47 +32,90 @@
             closely with you to develop an approach that works for your company – no
             matter the size. We develop the entire project along with you to create a
             common floor that achieves measurable software development goals.
-          </p>
+          </p> -->
         </div>
       </div>
       <div class="w-full md:w-1/2 pl-0 lg:pl-20 hidden md:flex">
         <img src="../assets/amico.svg" class="h-full" alt="" />
       </div>
     </div>
-    <Team />
+    <!-- <div class="mx-auto max-w-xl p-10 px-0 text-center">
+      <h2 class="text-4xl font-bold leading-tight text-black">Our Story</h2>
+      <p class="mt-3 text-md text-gray-600">
+        At AppGharage, customer satisfaction is always our priority. We provide softwares for 
+        clients focusing on creating products the right way.
+      </p>
+    </div> -->
+
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
-      <div class="w-full">
+      <div class="w-full hidden lg:block">
         <img src="../assets/about.svg" class="max-w-3xl mx-auto h-auto" alt="" />
       </div>
       <div class="w-full flex flex-col gap-10">
         <div class="flex gap-4 items-start">
-          <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+          <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
           <div class="space-y-2">
-            <h3
-              class="font-semibold tracking-normal text-left text-gray-900"
-              style="font-size: 24px"
+            <h2
+              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
             >
-              Our Mission
-            </h3>
+              Overview
+            </h2>
             <p
               class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
               style="font-size: 16px"
             >
-              We are committed to impacting brands and businesses by enabling their
-              software journeys through strategic consulting services using the best
-              technologies.
+              AppGharage is a Software Development and Consultancy firm that partners with 
+              small to large organizations to help them increase efficiency and productivity.
+              <br><br>
+              We accomplish this is by meeting with our clients, understand their current operating environment,
+              where they are now and where they want to archieve, then creating the roadmap and buidling simple 
+              solutions to make them get there.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+          <div class="space-y-2">
+            <h2
+              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
+            >
+              Our Story
+            </h2>
+            <p
+              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
+              style="font-size: 16px"
+            >
+              AppGharage was starters in 2018 by our founders. Through AppGharage, Epay was birth which was a service 
+              provider and operated for 2 years succesfully with over 100 clients within months of operation.
+              Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700">Jolinow.</a>
             </p>
           </div>
         </div>
         <div class="flex gap-4 items-start">
           <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
           <div class="space-y-2">
-            <h3
-              class="font-semibold tracking-normal text-left text-gray-900"
-              style="font-size: 24px"
+            <h2
+              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
             >
               Our Vision
-            </h3>
+            </h2>
+            <p
+              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
+              style="font-size: 16px"
+            >
+              Our Vision is to be the World's best Software development and consulting firm to help businesses achieve their goals
+              by using state of the art web technologies.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
+          <div class="space-y-2">
+            <h2
+              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
+            >
+              Our Values
+            </h2>
             <p
               class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
               style="font-size: 16px"
@@ -77,46 +127,8 @@
         </div>
       </div>
     </div>
-    <div
-      class="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-5 md:space-y-0 hidden"
-    >
-      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
-        <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
-        <div class="space-y-2">
-          <h3
-            class="font-semibold tracking-normal text-left text-gray-900"
-            style="font-size: 24px"
-          >
-            Our Mission
-          </h3>
-          <p
-            class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-            style="font-size: 16px"
-          >
-            We are committed to impacting brands and businesses by enabling their software
-            journeys through strategic consulting services using the best technologies.
-          </p>
-        </div>
-      </div>
-      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
-        <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
-        <div class="space-y-2">
-          <h3
-            class="font-semibold tracking-normal text-left text-gray-900"
-            style="font-size: 24px"
-          >
-            Our Vision
-          </h3>
-          <p
-            class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-            style="font-size: 16px"
-          >
-            Our Vision is to connect businesses and customers using state of the art web
-            technologies that will make our company the world’s premier software company
-          </p>
-        </div>
-      </div>
-    </div>
+
+    <Team />
   </div>
 </template>
 

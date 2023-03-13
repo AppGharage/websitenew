@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="w-full bg-black pt-16">
+    <div class="bg-blue-900 pt-16">
       <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0">
           <div class="w-full lg:w-1/4 space-y-3">
@@ -8,12 +8,20 @@
               <img src="../assets/logoonly.png" class="h-16" alt="" />
               <p class="text-lg leading-6 font-medium text-white mb-4">AppGharage</p>
             </div>
-            <div class="text-white font-light text-sm mb-6">
+            <div class="text-white font-light text-lg mb-6">
               <p class="pb-2">
-                AppGharage is a Software and Business solutions Company that offers
+                We try our best to deliver the best. Your Only compatible partner!
+                <!-- AppGharage is a Software and Business solutions Company that offers
                 technological services and consultancy services to small scale businesses
-                and corporate organizations.
+                and corporate organizations. -->
               </p>
+              <div class="h-20 pt-5">
+              <router-link
+                to="/contact"
+                class="px-5 py-3 text-black text-lg font-medium bg-white rounded-br-2xl"
+                >Let's Talk !</router-link
+              >
+            </div>
             </div>
             <div class="flex space-x-3 mt-2">
               <div class="rounded-full bg-white">
@@ -115,7 +123,9 @@
                     >Contact</router-link
                   >
                 </div>
+                
               </div>
+              
             </div>
 
             <!--<div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
@@ -138,13 +148,14 @@
               </div>
             </div>-->
           </div>
+
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
             <h2 class="text-white text-base uppercase leading-6 font-medium">
               Get in touch
             </h2>
             <div class="space-y-3 text-white">
               <div class="font-light text-sm flex items-center space-x-2">
-                <span
+                <!-- <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6"
@@ -164,7 +175,7 @@
                       stroke-width="1.5"
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     /></svg></span
-                ><span>26 Bimpong Street, Agbogba, Accra</span>
+                ><span>26 Bimpong Street, Agbogba, Accra</span> -->
               </div>
               <div class="font-light text-sm flex items-center space-x-2">
                 <span
