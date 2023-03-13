@@ -3,7 +3,7 @@
     class="sticky top-0 z-20 nav-fixed"
     :class="[open ? 'bg-white shadow' : 'bg-none shadow-none']"
   >
-    <section class="relative max-w-screen-2xl mx-auto px-5 md:px-10 xl:px-0">
+    <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
       <div class="w-full py-5 md:py-2 flex items-center justify-between">
         <router-link to="/" class="flex items-center select-none cursor-pointer">
           <img src="../assets/logoonly.png" class="h-12 md:h-16" alt="logo" />

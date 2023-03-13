@@ -5,23 +5,51 @@
         <div
           class="flex flex-col-reverse lg:flex-row items-start px-0 md:px-10 md:items-center"
         >
-          <div
-            class="w-full lg:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
+        <div
+            class="w-full lg:w-2/3 space-y-7 md:py-14 justify-center"
           >
             <h2
-              class="font-medium text-4xl lg:text-6xl text-gray-900 leading-normal text-center lg:text-left"
+              class="font-medium text-3xl lg:text-4xl text-gray-900 leading-normal lg:leading-normal text-left lg:text-left p-3 lg:p-0"
             >
-              We are here to make your Business <span class="">Awesome</span>
+              We are here to help you reach your business goals with future-ready software solutions.
             </h2>
-            <router-link
-              to="/contact"
-              class="w-full md:w-56 mx-auto lg:mx-0 font-medium text-center rounded-md py-3 text-base text-white bg-blue-700"
-              >Let's Talk !</router-link
-            >
+            
+            <div class="flex">
+              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <div class="">
+                <h2 class="font-medium text-xl">
+                  Get a world-class standard software
+                </h2>
+              </div>
+            </div>
+            <div class="flex">
+              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <div class="">
+                <h2 class="font-medium text-xl">
+                    Get strategic advice
+                </h2>
+              </div>
+            </div>
+            <div class="flex">
+              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <div class="">
+                <h2 class="font-medium text-xl">
+                  Modernize legacy software
+                </h2>
+              </div>
+            </div>
+
+            <div class="h-20 pt-5 ml-3 lg:ml-0">
+              <router-link
+                to="/contact"
+                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
+                >Got an Idea ? Let's Talk !</router-link
+              >
+            </div>
           </div>
-          <div class="items-center w-full md:w-1/3 py-0 md:py-10 hidden lg:flex">
+          <!-- <div class="items-center w-full md:w-1/3 py-0 md:py-10 hidden lg:flex">
             <img src="../assets/ctaimage.svg" class="mx-auto" alt="" />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

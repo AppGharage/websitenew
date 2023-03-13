@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-white">
-      <div class="max-w-7xl mx-auto px-0">
+      <div class="mx-auto max-w-container">
         <!-- <div class="lg:text-center">
           <h1
             class="font-semibold tracking-normal font-gray-900 text-left md:text-center text-3xl md:text-4xl"
@@ -18,11 +18,10 @@
         </div> -->
         <div class="bg-transparent w-full">
        <div class="mx-auto max-w-4xl p-10 px-0 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl font-bold leading-tight text-black">Why choose AppGharage?</h2>
+        <h2 class="text-4xl font-bold leading-tight text-black">Why AppGharage ?</h2>
         <p class="mt-5 text-md text-gray-600">
           AppGharage is here to assist you with all your digital objectives and enhancing your business.
-            With our world-class standard solution, your business will stand out from the others.
-            We help you envision your plan, we bring it to life.
+          With our world-class standard solution, your business will stand out from the others.
         </p>
       </div>
     </div>
@@ -57,7 +56,7 @@
                 Customer Focused
               </p>
               <p class="text-base text-gray-500 text-center">
-                At AppGharage the customer always comes first. We prioritize making
+                At AppGharage, the customer always comes first. We prioritize making
                 customer satisfaction a reality.
               </p>
             </div>
@@ -75,7 +74,7 @@
                 Innovative Solutions
               </p>
               <p class="text-base text-gray-500 text-center">
-                In AppGharage we build solutions that are a focused on making your
+                We build solutions that are focused on making your
                 business less stressful but more productive.
               </p>
             </div>

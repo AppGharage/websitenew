@@ -1,6 +1,6 @@
 <template>
   <div class="pt-10">
-      <div class="mx-auto max-w-4xl p-10 px-0 text-center">
+      <div class="mx-auto max-w-xl p-10 px-0 text-center">
         <h2 class="text-4xl font-bold leading-tight text-black">Our Services</h2>
         <p class="mt-3 text-md text-gray-600">
           At AppGharage, customer satisfaction is always our priority. We provide softwares for 
@@ -18,7 +18,7 @@
         </div>
     </div> -->
     <div class="relative z-20 sm:z-auto mt-4">
-      <div class="mx-auto max-w-container pb-16">
+      <div class="mx-auto pb-16">
         <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
           <div class="flex mt-2">
             <img src="../assets/creative 1.svg" alt="" class="h-20 w-20 mr-3">
@@ -59,7 +59,7 @@
             <img src="../assets/support2 1.svg" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
-                  Consulting Services
+                  Process Improvement
               </h2>
               <p class="text-md text-gray-600">
                 We provide the needed expertise in helping clients maximise their use of
