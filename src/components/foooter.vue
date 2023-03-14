@@ -10,7 +10,7 @@
             </div>
             <div class="text-white font-light text-lg mb-6">
               <p class="pb-2">
-                We try our best to deliver the best. Your Only compatible partner!
+                We try our best to deliver the best. Technology made simple!
                 <!-- AppGharage is a Software and Business solutions Company that offers
                 technological services and consultancy services to small scale businesses
                 and corporate organizations. -->
@@ -24,13 +24,13 @@
             </div>
             </div>
             <div class="flex space-x-3 mt-2">
-              <div class="rounded-full bg-white">
+              <div class=" bg-white">
                 <img src="../assets/linkedin.svg" class="h-7 m-2" alt="" />
               </div>
-              <div class="rounded-full bg-white flex items-center justify-center">
+              <div class=" bg-white flex items-center justify-center">
                 <img src="../assets/facebook.png" class="h-7 m-2" alt="" />
               </div>
-              <div class="rounded-full bg-white flex items-center">
+              <div class=" bg-white flex items-center">
                 <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
               </div>
             </div>

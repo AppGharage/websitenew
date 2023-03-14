@@ -61,8 +61,7 @@
               Overview
             </h2>
             <p
-              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-              style="font-size: 16px"
+              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
               AppGharage is a Software Development and Consultancy firm that partners with 
               small to large organizations to help them increase efficiency and productivity.
@@ -82,8 +81,7 @@
               Our Story
             </h2>
             <p
-              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-              style="font-size: 16px"
+              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
               AppGharage was starters in 2018 by our founders. Through AppGharage, Epay was birth which was a service 
               provider and operated for 2 years succesfully with over 100 clients within months of operation.
@@ -100,8 +98,7 @@
               Our Vision
             </h2>
             <p
-              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-              style="font-size: 16px"
+              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
               Our Vision is to be the World's best Software development and consulting firm to help businesses achieve their goals
               by using state of the art web technologies.
@@ -116,12 +113,19 @@
             >
               Our Values
             </h2>
+            <!-- <div class="pl-4">
+              <ul class="list-disc list-inside">
+                <li>Work Hard, Play Hard</li>
+                <li>Keep it simple</li>
+                <li>Build trust with transparency and security</li>
+              </ul>
+            </div> -->
             <p
-              class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
-              style="font-size: 16px"
+              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
-              Our Vision is to connect businesses and customers using state of the art web
-              technologies that will make our company the world’s premier software company
+              We are group of individuals with <span class="font-semibold text-lg text-blue-700">integrity</span> from <span class="font-semibold text-lg text-blue-700">diverse</span> 
+              backgrounds, who take <span class="font-semibold text-lg text-blue-700">responsibility</span> and <span class="font-semibold text-lg text-blue-700">innovation</span> 
+              at heart to deliver quality work to our clients.
             </p>
           </div>
         </div>
