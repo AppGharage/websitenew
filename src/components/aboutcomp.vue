@@ -63,7 +63,7 @@
             <p
               class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
-              AppGharage is a Software Development and Consultancy firm that partners with 
+              AppGharage is a Software Development and Consultancy firm in Ghana that partners with 
               small to large organizations to help them increase efficiency and productivity.
               <br><br>
               We accomplish this is by meeting with our clients, understand their current operating environment,
@@ -83,7 +83,7 @@
             <p
               class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
             >
-              AppGharage was starters in 2018 by our founders. Through AppGharage, Epay was birth which was a service 
+              AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a service 
               provider and operated for 2 years succesfully with over 100 clients within months of operation.
               Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700">Jolinow.</a>
             </p>

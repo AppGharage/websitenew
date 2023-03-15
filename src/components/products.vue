@@ -2,22 +2,68 @@
   <div
     class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-5 md:px-10 lg:px-0 mb-24"
   >
-    <div>
-      <h1
-        class="font-bold text-gray-900 text-left md:text-center"
-        style="font-size: 40px; letter-spacing: 0.2px"
+    <div class="max-w-screen-xl mx-auto px-5 md:px-5 z-10">
+      <!-- <h1
+        class="ftext-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
       >
-        Latest Projects
+        Projects
       </h1>
       <p
         class="font-normal text-lg text-gray-500 tracking-normal text-left md:text-center"
         style="letter-spacing: 0.2px"
       >
         We are Agile!! Checkout some of our inhouse developed products.
-      </p>
+      </p> -->
+      <div class="flex flex-col-reverse lg:flex-row items-center mt-28 mb-10 md:mb-28">
+          <div class="w-full lg:w-3/5 space-y-5">
+              <h2
+                class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
+              >
+                Jolinow
+            </h2>
+            <p class="text-lg md:text-xl text-gray-500 lg:text-left md:text-center">
+              Jolinow is an experience booking platform for experience creators. It makes it easy for businesses and individuals
+              to create and book experiences in simple steps.
+            </p>
+            <div class="h-20">
+              <router-link
+                to="/contact"
+                class="text-lg font-medium text-blue-700"
+                >View details</router-link
+              >
+            </div>
+          </div>
+          <div class="lg:w-2/5 mt-2 mb-10">
+            <img src="../assets/trippify.png" class="w-[100px] h-auto" alt="laptop" />
+          </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center mt-28 mb-10 md:mb-28">
+          <div class="lg:w-2/5 mt-2 mr-8">
+            <img src="../assets/trippify.png" class="w-[100px] h-auto" alt="laptop" />
+          </div>
+          <div class="w-full lg:w-3/5 mt-10">
+              <h2
+                class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
+              >
+                Jolinow
+            </h2>
+            <p class="text-lg md:text-xl text-gray-500 lg:text-left md:text-center">
+              Jolinow is an experience booking platform for experience creators. It makes it easy for businesses and individuals
+              to create and book experiences in simple steps.
+            </p>
+            <div class="h-20 mt-4">
+              <a
+                href="https://jolinow.com"
+                class="text-lg font-medium text-blue-700"
+                >View details</a
+              >
+            </div>
+          </div>
+      </div>
     </div>
 
-    <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">
+    <!-- <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">
       <div
         class="w-full rounded-xl overflow-hidden shadow border-1 hidden transform hover:scale-105 border-gray-200 border-opacity-75 flex flex-col hover:shadow-lg transition-all ease-linear delay-200 cursor-pointer"
       >
@@ -92,7 +138,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

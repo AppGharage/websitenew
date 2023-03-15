@@ -45,7 +45,6 @@
           </div>
 
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
-            <!-- Column Content -->
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
@@ -63,7 +62,6 @@
           </div>
 
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
-            <!-- Column Content -->
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
