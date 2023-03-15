@@ -1,22 +1,10 @@
 <template>
   <div class="relative overflow-visible">
-    <!-- <div class="absolute right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56"> -->
-      <!-- <img src="../assets/Rectangle.png" class="w-full" alt="" /> -->
-      <!-- <div
-        class="bg-blue-100 rounded-bl-full hidden lg:block"
-        style="min-height: 900px; min-width: 800px"
-      ></div> -->
-    <!-- </div> -->
-
-    <div
-      class="max-w-screen-xl mx-auto px-5 md:px-5 z-10"
-    >
+    <div class="max-w-screen-xl mx-auto z-10">
       <div class="w-full mb-4">
         <div class="flex flex-col-reverse lg:flex-row items-center">
           <div class="w-full lg:w-3/5 space-y-5 lg:mt-32 md:mt-10">
-              <h2
-                class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
-              >
+            <h2 class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
                 <!-- We are a team of qualified designers and developers with integrity from diverse
                 backgrounds, who take responsibility and deliver the best quality work. -->
                 Software Development <span class="text-blue-600">&</span>  Consulting
@@ -24,7 +12,7 @@
             <p class="text-lg md:text-xl text-gray-500 lg:text-left md:text-center mt-0 md:mt-2">
               Providing the simplest solution for the most complex problem
             </p>
-            <div class="h-20 pt-5">
+            <div class="h-20 pt-5 px-5 md:px-10 xl:px-0">
               <router-link
                 to="/contact"
                 class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"

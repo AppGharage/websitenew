@@ -1,10 +1,9 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
-    <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
-      <div class="space-y-5 w-full md:w-1/2 flex flex-col">
-        <div class="my-0 md:my-auto">
+    <div class="w-full flex flex-col md:flex-row md:mt-20">
+      <div class="space-y-5 my-0 md:my-auto flex flex-col">
           <h2 class="text-4xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
-            We are a technology company creating world-class products.
+            We are a technology company creating <span class="text-blue-600">world-class</span> products.
           </h2>
           <div class="h-20 pt-10">
               <router-link
@@ -33,10 +32,9 @@
             matter the size. We develop the entire project along with you to create a
             common floor that achieves measurable software development goals.
           </p> -->
-        </div>
       </div>
-      <div class="w-full md:w-1/2 pl-0 lg:pl-20 hidden md:flex">
-        <img src="../assets/amico.svg" class="h-full" alt="" />
+      <div class="w-full md:w-1/2 pl-0 lg:pl-20 md:flex">
+        <img src="../assets/amico.svg" class="h-full hidden lg:block " alt="" />
       </div>
     </div>
     <!-- <div class="mx-auto max-w-xl p-10 px-0 text-center">
@@ -48,9 +46,7 @@
     </div> -->
 
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
-      <div class="w-full hidden lg:block">
-        <img src="../assets/about.svg" class="max-w-3xl mx-auto h-auto" alt="" />
-      </div>
+     
       <div class="w-full flex flex-col gap-10">
         <div class="flex gap-4 items-start">
           <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
@@ -131,7 +127,6 @@
         </div>
       </div>
     </div>
-
     <Team />
   </div>
 </template>

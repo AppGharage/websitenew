@@ -1,13 +1,9 @@
 <template>
   <div class="relative overflow-visible bg-gray-200">
-    <div class="max-w-screen-xl mx-auto px-5 z-10 lg:px-0">
-      <div class="py-10 md:py-0">
-        <div
-          class="flex flex-col-reverse lg:flex-row items-start px-0 lg:px-10 md:items-center"
-        >
-        <div
-            class="w-full lg:w-2/3 space-y-7 md:py-14 justify-center"
-          >
+    <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
+      <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col-reverse lg:flex-row items-start md:items-center">
+        <div class="lg:w-2/3 space-y-7 md:py-14 justify-center">
             <h2
               class="font-medium text-3xl lg:text-4xl text-gray-900 leading-normal lg:leading-normal text-left lg:text-left p-3 lg:p-0"
             >

@@ -23,17 +23,7 @@
               >
             </div>
             </div>
-            <div class="flex space-x-3 mt-2">
-              <div class=" bg-white rounded">
-                <img src="../assets/linkedin.svg" class="h-7 m-2" alt="" />
-              </div>
-              <div class=" bg-white flex items-center justify-center rounded">
-                <img src="../assets/facebook.png" class="h-7 m-2" alt="" />
-              </div>
-              <div class=" bg-white flex items-center rounded">
-                <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
-              </div>
-            </div>
+            
           </div>
           <div class="flex flex-1">
             <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3 mx-auto">
@@ -190,10 +180,10 @@
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="1.5"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     /></svg
                 ></span>
-                <span>(+233) 054 - 879 - 7248</span>
+                <span>info@appgharage.com</span>
               </div>
               <div class="font-light text-sm flex items-center space-x-2">
                 <span
@@ -208,10 +198,21 @@
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="1.5"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     /></svg
                 ></span>
-                <span>info@appgharage.com</span>
+                <span>(+233) 054 - 879 - 7248</span>
+              </div>
+              <div class="flex space-x-3 pt-4">
+                <div class=" bg-white rounded">
+                  <img src="../assets/linkedin.svg" class="h-7 m-2" alt="" />
+                </div>
+                <div class=" bg-white flex items-center justify-center rounded">
+                  <img src="../assets/facebook.png" class="h-7 m-2" alt="" />
+                </div>
+                <div class=" bg-white flex items-center rounded">
+                  <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
+                </div>
               </div>
             </div>
           </div>

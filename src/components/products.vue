@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-5 md:px-10 lg:px-0 mb-24"
-  >
-    <div class="max-w-screen-xl mx-auto px-5 md:px-5 z-10">
+  <div class="relative overflow-visible">
+    <div class="max-w-screen-xl mx-auto z-10 px-5 md:px-10 xl:px-0">
       <!-- <h1
         class="ftext-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900"
       >
