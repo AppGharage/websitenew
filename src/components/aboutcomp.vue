@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
-    <div class="w-full flex flex-col md:flex-row md:mt-20">
-      <div class="space-y-5 my-0 md:my-auto flex flex-col">
+  <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-20">
+    <div class="w-full flex flex-col lg:flex-row md:mt-20">
+      <div class="space-y-5 md:my-auto flex flex-col">
           <h2 class="text-4xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
             We are a technology company creating <span class="text-blue-600">world-class</span> products.
           </h2>
@@ -45,8 +45,7 @@
       </p>
     </div> -->
 
-    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
-     
+    <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 lg:py-10">
       <div class="w-full flex flex-col gap-10">
         <div class="flex gap-4 items-start">
           <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
@@ -81,7 +80,7 @@
             >
               AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a service 
               provider and operated for 2 years succesfully with over 100 clients within months of operation.
-              Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700">Jolinow.</a>
+              Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a>
             </p>
           </div>
         </div>

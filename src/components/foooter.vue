@@ -16,12 +16,12 @@
                 and corporate organizations. -->
               </p>
               <div class="h-20 pt-5">
-              <router-link
-                to="/contact"
-                class="px-5 py-3 text-black text-lg font-medium bg-white rounded-br-2xl"
-                >Let's Talk !</router-link
-              >
-            </div>
+                <router-link
+                  to="/contact"
+                  class="px-5 py-3 text-black text-lg font-medium bg-white rounded-br-2xl"
+                  > Let's Talk ! </router-link
+                >
+              </div>
             </div>
             
           </div>

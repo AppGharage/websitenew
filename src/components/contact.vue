@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
-      <div class="flex flex-col md:flex-row py-0 px-0 md:px-0 lg:mt-32 md:mt-10 mb-24">
-        <div class="space-y-5 w-full md:w-1/2 flex flex-col pb-10 lg:pb-0">
+  <div class="max-w-screen-xl mx-auto md:p-10 px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
+      <div class="flex flex-col lg:flex-row py-0 px-0 md:px-0 lg:mt-32 md:mt-10 mb-24">
+        <div class="space-y-5 w-full lg:w-1/2 flex flex-col pb-10 lg:pb-0">
           <h2
             class="font-semibold text-2xl md:text-5xl tracking-normal text-gray-900 text-left"
           >
@@ -49,7 +49,7 @@
             ><span class="text-gray-900">(+233) 054 - 879 - 7248</span>
           </div>
         </div>
-        <div class="w-full md:w-1/2 md:mt-0 lg:px-10">
+        <div class="w-full lg:w-1/2 md:mt-0 lg:px-10">
           <h2
             class="font-semibold text-3xl tracking-normal text-gray-900 text-left"
           >
