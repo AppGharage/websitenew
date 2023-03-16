@@ -45,86 +45,65 @@
       </p>
     </div> -->
 
-    <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 lg:py-10">
-      <div class="w-full flex flex-col gap-10">
-        <div class="flex gap-4 items-start">
-          <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
-          <div class="space-y-2">
-            <h2
-              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
-            >
-              Overview
-            </h2>
-            <p
-              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
-            >
-              AppGharage is a Software Development and Consultancy firm in Ghana that partners with 
-              small to large organizations to help them increase efficiency and productivity.
-              <br><br>
-              We accomplish this is by meeting with our clients, understand their current operating environment,
-              where they are now and where they want to archieve, then creating the roadmap and buidling simple 
-              solutions to make them get there.
-            </p>
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
+      <div class="w-full"><img src="../assets/team.gif" alt="" class="max-w-3xl w-full mt-10"></div>
+        <div class="w-full flex flex-col gap-10">
+          <div class="flex gap-4 items-start">
+            <img src="/img/mission 1.d0340828.svg" alt="" class="w-14 md:w-14">
+            <div class="space-y-2">
+                <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
+                  Overview
+                </h2>
+                <p class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal">
+                  AppGharage is a Software Development and Consultancy firm in Ghana that partners with 
+                  small to large organizations to help them increase efficiency and productivity.
+                  <br><br>
+                  We accomplish this is by meeting with our clients, understand their current operating environment,
+                  where they are now and where they want to archieve, then creating the roadmap and buidling simple 
+                  solutions to make them get there.
+                </p>
+              </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <div class="space-y-2">
+              <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
+                Our Story
+              </h2>
+              <p class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal">
+                AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a service 
+                provider and operated for 2 years succesfully with over 100 clients within months of operation.
+                Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a>
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <div class="space-y-2">
+              <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
+                Our Vision
+              </h2>
+              <p class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal">
+                Our Vision is to be the World's best Software development and consulting firm to help businesses achieve their goals
+                by using state of the art web technologies.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <div class="space-y-2">
+              <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
+                Our Values
+              </h2>
+              <p class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal">
+                We are group of individuals with <span class="font-semibold text-lg text-blue-700">integrity</span> from 
+                <span class="font-semibold text-lg text-blue-700">diverse</span> backgrounds, who take <span class="font-semibold text-lg text-blue-700">
+                responsibility</span> and <span class="font-semibold text-lg text-blue-700">innovation</span> 
+                at heart to deliver quality work to our clients.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="flex gap-4 items-start">
-          <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
-          <div class="space-y-2">
-            <h2
-              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
-            >
-              Our Story
-            </h2>
-            <p
-              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
-            >
-              AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a service 
-              provider and operated for 2 years succesfully with over 100 clients within months of operation.
-              Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a>
-            </p>
-          </div>
-        </div>
-        <div class="flex gap-4 items-start">
-          <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
-          <div class="space-y-2">
-            <h2
-              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
-            >
-              Our Vision
-            </h2>
-            <p
-              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
-            >
-              Our Vision is to be the World's best Software development and consulting firm to help businesses achieve their goals
-              by using state of the art web technologies.
-            </p>
-          </div>
-        </div>
-        <div class="flex gap-4 items-start">
-          <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
-          <div class="space-y-2">
-            <h2
-              class="font-semibold tracking-normal text-left text-gray-900 text-2xl"
-            >
-              Our Values
-            </h2>
-            <!-- <div class="pl-4">
-              <ul class="list-disc list-inside">
-                <li>Work Hard, Play Hard</li>
-                <li>Keep it simple</li>
-                <li>Build trust with transparency and security</li>
-              </ul>
-            </div> -->
-            <p
-              class="font-normal tracking-normal text-medium text-left text-gray-500 leading-normal"
-            >
-              We are group of individuals with <span class="font-semibold text-lg text-blue-700">integrity</span> from <span class="font-semibold text-lg text-blue-700">diverse</span> 
-              backgrounds, who take <span class="font-semibold text-lg text-blue-700">responsibility</span> and <span class="font-semibold text-lg text-blue-700">innovation</span> 
-              at heart to deliver quality work to our clients.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
     <Team />
   </div>

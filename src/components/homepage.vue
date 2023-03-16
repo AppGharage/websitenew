@@ -12,7 +12,7 @@
             <p class="text-lg md:text-xl text-gray-500 lg:text-left md:text-center mt-0 md:mt-2">
               Providing the simplest solution for the most complex problem
             </p>
-            <div class="h-20 pt-5">
+            <div class="h-20 pt-5 items-center">
               <router-link
                 to="/contact"
                 class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"

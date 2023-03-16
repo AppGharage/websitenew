@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-xl mx-auto md:p-10 px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
+  <div class="max-w-screen-xl mx-auto md:p-4 px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
       <div class="flex flex-col lg:flex-row py-0 px-0 md:px-0 lg:mt-32 md:mt-10 mb-24">
         <div class="space-y-5 w-full lg:w-1/2 flex flex-col pb-10 lg:pb-0">
           <h2
