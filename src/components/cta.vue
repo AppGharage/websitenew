@@ -11,7 +11,7 @@
             </h2>
             
             <div class="flex">
-              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
               <div class="">
                 <h2 class="font-medium text-xl">
                   Get a world-class standard software
@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="flex">
-              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
               <div class="">
                 <h2 class="font-medium text-xl">
                     Get strategic advice
@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="flex">
-              <img src="../assets/creative 1.svg" alt="" class="h-10 w-10 mr-3">
+              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
               <div class="">
                 <h2 class="font-medium text-xl">
                   Modernize legacy software
