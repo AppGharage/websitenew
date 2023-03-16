@@ -46,10 +46,10 @@
     </div> -->
 
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
-      <div class="w-full"><img src="../assets/team.gif" alt="" class="max-w-3xl w-full mt-10 hidden lg:block"></div>
+      <div class="w-full"><img src="../assets/connectivity.gif" alt="" class="max-w-3xl w-full mt-10 hidden lg:block"></div>
         <div class="w-full flex flex-col gap-10">
           <div class="flex gap-4 items-start">
-            <img src="../assets/overview.png" alt="" class="w-14 md:w-14">
+            <img src="../assets/overview.png" alt="" class="w-8 md:w-14">
             <div class="space-y-2">
                 <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
                   Overview
