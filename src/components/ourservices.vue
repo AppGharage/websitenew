@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/customize.png" alt="" class="h-20 w-20 mr-3 p-2">
+            <img src="../assets/customize.gif" alt="" class="h-20 w-20 mr-3 p-2">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Customized Solutions

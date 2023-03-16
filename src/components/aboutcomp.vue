@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-20">
-    <div class="w-full flex flex-col lg:flex-row md:mt-20">
+    <div class="w-full flex flex-col-reverse lg:flex-row md:mt-20">
       <div class="space-y-5 md:my-auto flex flex-col">
           <h2 class="text-4xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
             We are a technology company creating <span class="text-blue-600">world-class</span> products.
@@ -34,7 +34,7 @@
           </p> -->
       </div>
       <div class="w-full md:w-1/2 pl-0 lg:pl-20 md:flex">
-        <img src="../assets/amico.svg" class="h-full hidden lg:block " alt="" />
+        <img src="../assets/worldclass.gif" class="w-full" alt="" />
       </div>
     </div>
     <!-- <div class="mx-auto max-w-xl p-10 px-0 text-center">
@@ -46,10 +46,10 @@
     </div> -->
 
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
-      <div class="w-full"><img src="../assets/team.gif" alt="" class="max-w-3xl w-full mt-10"></div>
+      <div class="w-full"><img src="../assets/team.gif" alt="" class="max-w-3xl w-full mt-10 hidden lg:block"></div>
         <div class="w-full flex flex-col gap-10">
           <div class="flex gap-4 items-start">
-            <img src="/img/mission 1.d0340828.svg" alt="" class="w-14 md:w-14">
+            <img src="../assets/overview.png" alt="" class="w-14 md:w-14">
             <div class="space-y-2">
                 <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
                   Overview
@@ -65,7 +65,7 @@
               </div>
           </div>
           <div class="flex gap-4 items-start">
-            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <img src="../assets/story.png" class="w-8 md:w-14" alt="" />
             <div class="space-y-2">
               <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
                 Our Story
@@ -78,7 +78,7 @@
             </div>
           </div>
           <div class="flex gap-4 items-start">
-            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <img src="../assets/vision.png" class="w-8 md:w-14" alt="" />
             <div class="space-y-2">
               <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
                 Our Vision
@@ -90,7 +90,7 @@
             </div>
           </div>
           <div class="flex gap-4 items-start">
-            <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+            <img src="../assets/values.png" class="w-8 md:w-14" alt="" />
             <div class="space-y-2">
               <h2 class="font-semibold tracking-normal text-left text-gray-900 text-2xl">
                 Our Values

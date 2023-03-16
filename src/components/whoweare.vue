@@ -32,7 +32,7 @@
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start border-b-5"
             >
               <div class="rounded-t-full rounded-br-full bg-gray-100">
-                <img src="../assets/goals.svg" class="h-14 m-6" alt="" />
+                <img src="../assets/goal.png" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 Goal Oriented
@@ -49,7 +49,7 @@
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
               <div class="rounded-t-full rounded-br-full bg-gray-100">
-                <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
+                <img src="../assets/customer.png" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 Customer Focused

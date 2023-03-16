@@ -23,7 +23,7 @@
           <div class="lg:w-2/5 m-2">
             <img
               src="../assets/hero2.gif"
-              class="w-full hidden lg:block"
+              class="w-60 lg:w-full"
               alt=""
             />
           </div>
