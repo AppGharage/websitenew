@@ -21,7 +21,7 @@
       <div class="mx-auto pb-16">
         <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
           <div class="flex mt-2">
-            <img src="../assets/creative 1.svg" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/herosection.gif" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Web Application Development
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-              <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3 ">
+              <img src="../assets/mobile.gif" alt="" class="h-20 w-20 mr-3 ">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Mobile Application Development
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/pen 1 (1).svg" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/customize.png" alt="" class="h-20 w-20 mr-3 p-2">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Customized Solutions
@@ -56,7 +56,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/support2 1.svg" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/process.gif" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-xl text-blue-700">
                   Process Improvement
