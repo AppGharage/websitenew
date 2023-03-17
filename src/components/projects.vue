@@ -26,8 +26,8 @@
             <div class="h-20">
               <router-link
                 to="/contact"
-                class="text-lg font-medium text-blue-700"
-                >View details</router-link
+                class="text-lg font-medium text-blue-700 flex"
+                >View details <img src="../assets/arrow.svg" class="w-6 ml-1" alt="laptop" /></router-link
               >
             </div>
           </div>
@@ -36,7 +36,7 @@
           </div>
       </div>
 
-      <div class="flex flex-col lg:flex-row items-center mt-28 mb-10 md:mb-28">
+      <!-- <div class="flex flex-col lg:flex-row items-center mt-28 mb-10 md:mb-28">
           <div class="lg:w-2/5 mt-2 mr-8">
             <img src="../assets/trippify.png" class="w-[100px] h-auto" alt="laptop" />
           </div>
@@ -52,13 +52,14 @@
             </p>
             <div class="h-20 mt-4">
               <a
-                href="https://jolinow.com"
                 class="text-lg font-medium text-blue-700"
-                >View details</a
+                href="https://jolinow.com"
+                >View details <img src="../assets/arrow.svg" class="w-6 ml-1" alt="laptop" />
+              </a
               >
             </div>
           </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 px-4">

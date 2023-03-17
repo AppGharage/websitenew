@@ -1,29 +1,29 @@
 <template>
   <div class="home">
-    <Navbar
+    <navbar
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <productsVue class="mt-10 mb-10" />
-    <ctaVue ctaimg="productsv.svg" />
-    <Foooter />
+    <projects class="mt-10 mb-10" />
+    <Cta ctaimg="productsv.svg" />
+    <foooter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import productsVue from "../components/products.vue";
-import ctaVue from "../components/cta.vue";
-import Navbar from "../components/navbar.vue";
-import Foooter from "../components/foooter.vue";
+import projects from "../components/projects.vue";
+import Cta from "../components/callToAction.vue";
+import navbar from "../components/navbar.vue";
+import foooter from "../components/foooter.vue";
 
 export default {
-  name: "Home",
+  name: "Projects",
   components: {
-    productsVue,
-    ctaVue,
-    Navbar,
-    Foooter,
+    projects,
+    Cta,
+    navbar,
+    foooter,
   },
   data() {
     return {

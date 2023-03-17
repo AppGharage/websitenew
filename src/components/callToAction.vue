@@ -43,9 +43,9 @@
               >
             </div>
           </div>
-          <!-- <div class="items-center w-full md:w-1/3 py-0 md:py-10 hidden lg:flex">
-            <img src="../assets/ctaimage.svg" class="mx-auto" alt="" />
-          </div> -->
+          <div class="items-center w-full md:w-1/3 py-0 md:py-10 hidden lg:block lg:flex">
+            <img src="../assets/cta.gif" class="mx-auto w-80" alt="" />
+          </div>
         </div>
       </div>
     </div>

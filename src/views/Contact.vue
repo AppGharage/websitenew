@@ -1,29 +1,26 @@
 <template>
   <div class="home">
-    <Navbar
+    <navbar
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <contactVue class="mt-10 mb-10" />
-
-    <Foooter />
+    <contact class="mt-10 mb-10" />
+    <foooter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import contactVue from "../components/contact.vue";
-
-import Navbar from "../components/navbar.vue";
-import Foooter from "../components/foooter.vue";
+import contact from "../components/contact.vue";
+import navbar from "../components/navbar.vue";
+import foooter from "../components/foooter.vue";
 
 export default {
-  name: "Home",
+  name: "Contact",
   components: {
-    contactVue,
-
-    Navbar,
-    Foooter,
+    contact,
+    navbar,
+    foooter,
   },
   data() {
     return {

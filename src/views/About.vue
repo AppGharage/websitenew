@@ -1,23 +1,23 @@
 <template>
   <div class="about">
-    <Navbar
+    <navbar
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <aboutcompVue class="mt-10 mb-24" />
-    <ctaVue ctaimg="aboutsv.svg" />
-    <Foooter />
+    <about class="mt-10 mb-24" />
+    <cta ctaimg="aboutsv.svg" />
+    <foooter />
   </div>
 </template>
 
 <script>
-import aboutcompVue from "../components/aboutcomp.vue";
-import ctaVue from "../components/cta.vue";
-import Navbar from "../components/navbar.vue";
-import Foooter from "../components/foooter.vue";
+import about from "../components/about.vue";
+import cta from "../components/callToAction.vue";
+import navbar from "../components/navbar.vue";
+import foooter from "../components/foooter.vue";
 
 export default {
-  components: { aboutcompVue, ctaVue, Navbar, Foooter },
+  components: { about, cta, navbar, foooter },
   data() {
     return {
       isscroll: false,

@@ -8,13 +8,13 @@
             Get in Touch.
           </h2>
           <div class="flex flex-col">
-            <div class="border-4 border-blue-400 w-1/3 mt-2"></div>
+            <div class="border-4 border-green-200 w-1/3 mt-2"></div>
             
           </div>
           <p class="text-xl text-gray-500">
             Let us know how our software development and consulting services can help your business.
           </p>
-          <div class="flex items-start space-x-5 text-base font-medium">
+          <div class="flex items-start space-x-5 text-base font-medium text-gray-500">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,9 +29,9 @@
                   stroke-width="2"
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 /></svg></span
-            ><span class="text-gray-900">info@appgharage.com</span>
+            ><span>info@appgharage.com</span>
           </div>
-          <div class="flex items-start space-x-5 text-base font-medium">
+          <div class="flex items-start space-x-5 text-base font-medium text-gray-500">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
                   stroke-width="2"
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 /></svg></span
-            ><span class="text-gray-900">(+233) 054 - 879 - 7248</span>
+            ><span>(+233) 054 - 879 - 7248</span>
           </div>
         </div>
         <div class="w-full lg:w-1/2 md:mt-0 lg:px-10">
