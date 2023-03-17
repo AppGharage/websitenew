@@ -24,11 +24,11 @@
               to create and book experiences in simple steps.
             </p>
             <div class="h-20">
-              <router-link
-                to="/contact"
+              <a
+                href="https://jolinow.com"
                 class="text-lg font-medium text-blue-700 flex"
-                >View details <img src="../assets/arrow.svg" class="w-6 ml-1" alt="laptop" /></router-link
-              >
+                >View details <img src="../assets/arrow.svg" class="w-6 ml-1" alt="arrow" />
+              </a>
             </div>
           </div>
           <div class="lg:w-2/5 mt-2 mb-10">
