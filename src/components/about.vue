@@ -37,13 +37,6 @@
         <img src="../assets/worldclass.gif" class="w-full hidden lg:block" alt="" />
       </div>
     </div>
-    <!-- <div class="mx-auto max-w-xl p-10 px-0 text-center">
-      <h2 class="text-4xl font-bold leading-tight text-black">Our Story</h2>
-      <p class="mt-3 text-md text-gray-600">
-        At AppGharage, customer satisfaction is always our priority. We provide softwares for 
-        clients focusing on creating products the right way.
-      </p>
-    </div> -->
 
     <!-- <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 py-10 lg:py-10">
       <div class="w-full">
@@ -112,53 +105,53 @@
       <div class="mx-auto pb-16">
         <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
           <div class="flex mt-2">
-            <img src="../assets/overview.png" alt="" class="md:h-20 md:w-20 h-12 w-12 mr-3">
+            <img src="../assets/overview.png" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
+              <h2 class="font-semibold text-2xl mb-2">
                 Overview
               </h2>
-              <p class="text-md text-gray-600">
+              <p class="text-lg text-gray-600">
                 AppGharage is a Software Development and Consultancy firm in Ghana that partners with 
                 small to large organizations to help them increase efficiency and productivity.
                 <br><br>
-                We accomplish this is by meeting with our clients, understand their current operating environment,
-                where they are now and where they want to archieve, then creating the roadmap and buidling simple 
+                We accomplish this is by meeting with our clients, understanding their current operating environment,
+                where they are now and what they want to archieve, then creating the roadmap and buidling simple 
                 solutions to make them get there.
               </p>
             </div>
           </div>
           <div class="flex mt-4">
-              <img src="../assets/story.png" alt="" class="md:h-20 md:w-20 h-12 w-12  mr-3">
+              <img src="../assets/story.png" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
+              <h2 class="font-semibold text-2xl mb-2">
                   Our Story
               </h2>
-              <p class="text-md text-gray-600">
-                AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a service 
-                provider and operated for 2 years succesfully with over 100 clients within months of operation.
-                Fast forward to building in-house ideas, we launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a> 
+              <p class="text-lg text-gray-600">
+                AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a payment service 
+                provider and operated for 2 years succesfully with over 100 clients and $200,000 in process value within 14 months of operation.
+                Fast forward to building in-house ideas, we have launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a> 
               </p>
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/vision.png" alt="" class="md:h-20 md:w-20 h-12 w-12  mr-3">
+            <img src="../assets/vision.png" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
+              <h2 class="font-semibold text-2xl mb-2">
                   Our Vision
               </h2>
-              <p class="text-md text-gray-600">
-                Our Vision is to be the World's best Software development and consulting firm helping businesses achieve their goals
+              <p class="text-lg text-gray-600">
+                Our Vision is to be Africa's best Software development and consulting firm helping businesses achieve their goals
                 and connecting the world to state of the art web technologies.
               </p>
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/values.png" alt="" class="md:h-20 md:w-20 h-12 w-12 mr-3">
+            <img src="../assets/values.png" alt="" class="h-20 w-20 mr-3">
             <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
+              <h2 class="font-semibold text-2xl mb-2">
                 Our Values
               </h2>
-              <p class="text-md text-gray-600">
+              <p class="text-lg text-gray-600">
                 We are group of individuals with <span class="font-semibold text-lg text-blue-700">integrity</span> from 
                 <span class="font-semibold text-lg text-blue-700">diverse</span> backgrounds, who take <span class="font-semibold text-lg text-blue-700">
                 responsibility</span> and <span class="font-semibold text-lg text-blue-700">innovation</span> 

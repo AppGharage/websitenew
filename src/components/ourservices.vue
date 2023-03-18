@@ -1,10 +1,9 @@
 <template>
-  <div class="pt-10">
-      <div class="max-w-screen-xl mx-auto p-10 px-0 text-center">
-        <h2 class="text-4xl font-bold leading-tight text-black">Our Services</h2>
-        <p class="mx-auto max-w-4xl p-4 px-0 sm:px-6 lg:px-8 text-md text-gray-600">
-          At AppGharage, customer satisfaction is always our priority. We provide softwares for 
-          clients focusing on creating products the right way.
+  <div class="pt-20 pb-10">
+      <div class="max-w-screen-xl mx-auto pb-10 px-0 ">
+        <h2 class="text-3xl md:text-4xl font-bold leading-relaxed text-black">Our Services</h2>
+        <p class="max-w-4xl pt-4 px-0 text-xl text-gray-700">
+          We offer all of the digital services to innovative your idea.
         </p>
       </div>
     <!-- <div class="flex mx-auto p-10 px-0 sm:px-6 lg:px-8 text-center">
@@ -17,59 +16,59 @@
         <div class="flex-initial w-32">
         </div>
     </div> -->
-    <div class="relative z-20 sm:z-auto xl:px-0">
-      <div class="mx-auto pb-16">
-        <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
-          <div class="flex mt-2">
-            <img src="../assets/herosection.gif" alt="" class="h-20 w-20 mr-3">
-            <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
-                  Web Application Development
-              </h2>
-              <p class="text-md text-gray-600">
-                Our web applications make it easier to create, update, 
-                and maintain your software applications that run on the web.
-              </p>
+      <div class="relative sm:z-auto xl:px-0">
+        <div class="pb-16">
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
+            <div class="flex mt-4">
+              <img src="../assets/herosection.gif" alt="" class="h-20 w-20 mr-2">
+              <div class="">
+                <h2 class="font-semibold text-2xl mb-2">
+                    Web Application Development
+                </h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                  Our web applications make it easier to create, update, 
+                  and maintain your software applications that run on the web.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex mt-4">
-              <img src="../assets/mobile.gif" alt="" class="h-20 w-20 mr-3 ">
-            <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
-                  Mobile Application Development
-              </h2>
-              <p class="text-md text-gray-600">
-                We design practical and technologically mobile apps for consumers and enterprises. 
-              </p>
+            <div class="flex mt-4">
+                <img src="../assets/mobile.gif" alt="" class="h-20 w-20 mr-2">
+              <div class="">
+                <h2 class="font-semibold text-2xl mb-2">
+                    Mobile App Development
+                </h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                  We design practical and technologically mobile apps for consumers and enterprises. 
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex mt-4">
-            <img src="../assets/customize.gif" alt="" class="h-20 w-20 mr-3 p-2">
-            <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
-                  Customized Solutions
-              </h2>
-              <p class="text-md text-gray-600">
-                We develop the plan with you to create the best solution for your
-                business. Delivery is swift.
-              </p>
+            <div class="flex mt-4">
+              <img src="../assets/customize.gif" alt="" class="h-20 w-20 mr-2">
+              <div class="">
+                <h2 class="font-semibold text-2xl mb-2">
+                    Customized Solutions
+                </h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                  We develop the plan with you to create the best solution for your
+                  business. Delivery is swift.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex mt-4">
-            <img src="../assets/process.gif" alt="" class="h-20 w-20 mr-3">
-            <div class="leading-6">
-              <h2 class="font-semibold text-xl text-blue-700">
-                  Process Improvement
-              </h2>
-              <p class="text-md text-gray-600">
-                We provide the needed expertise in helping clients maximise their use of
-                technology for their business.
-              </p>
+            <div class="flex mt-4">
+              <img src="../assets/process.gif" alt="" class="h-20 w-20 mr-2">
+              <div class="">
+                <h2 class="font-semibold text-2xl mb-2">
+                    Process Improvement
+                </h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                  We provide the needed expertise in helping clients maximise their use of
+                  technology for their business.
+                </p>
+              </div>
             </div>
-          </div>
+        </div>
       </div>
-    </div>
-    </div>
+  </div>
 <!-- 
     <div class="mt-5 md:mt-10">
       <dl class="lg:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-8 p-1">

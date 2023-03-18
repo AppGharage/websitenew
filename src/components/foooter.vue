@@ -22,13 +22,13 @@
                   > Let's Talk ! </router-link
                 >
               </div>
-            </div>
-            
+            </div>  
           </div>
           <div class="flex flex-1">
             <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3 mx-auto">
-              <h2 class="text-white text-base leading-6 font-medium uppercase">
+              <h2 class="text-white text-base leading-6 font-semibold uppercase">
                 Useful Links
+                <div class="border-2 border-blue-400 w-1/3 mt-2"></div>
               </h2>
               <div class="flex flex-col overflow-hidden space-y-4 text-white">
                 <div
@@ -117,33 +117,14 @@
               </div>
               
             </div>
-
-            <!--<div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
-              <h2 class="text-white text-base uppercase leading-6 font-medium">
-                Socials
-              </h2>
-              <div class="flex flex-col overflow-hidden space-y-4 text-white">
-                <div class="flex items-center space-x-2">
-                  <img src="../assets/facebooknew.svg" class="w-5 h-5" alt="facebook" />
-                  <p class="text-sm font-light hover:text-red-500">Facebook</p>
-                </div>
-                <div class="flex items-center space-x-2">
-                  <img src="../assets/twitter (3).svg" class="w-5 h-5" alt="twitter" />
-                  <p class="text-sm font-light hover:text-red-500">Twitter</p>
-                </div>
-                <div class="flex items-center space-x-2">
-                  <img src="../assets/linkedin.svg" class="w-5 h-5" alt="" />
-                  <p class="text-sm font-light hover:text-red-500">LinkdIn</p>
-                </div>
-              </div>
-            </div>-->
           </div>
 
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
-            <h2 class="text-white text-base uppercase leading-6 font-medium">
+            <h2 class="text-white text-base uppercase leading-6 font-semibold">
               Get in touch
+              <div class="border-2 border-blue-400 w-1/4 mt-2"></div>
             </h2>
-            <div class="space-y-3 text-white">
+            <div class="text-white">
               <div class="font-light text-sm flex items-center space-x-2">
                 <!-- <span
                   ><svg
@@ -203,7 +184,7 @@
                 ></span>
                 <span>(+233) 054 - 879 - 7248</span>
               </div>
-              <div class="flex space-x-3 pt-4">
+              <!-- <div class="flex space-x-3 pt-4">
                 <div class=" bg-white rounded">
                   <img src="../assets/linkedin.svg" class="h-7 m-2" alt="" />
                 </div>
@@ -213,7 +194,7 @@
                 <div class=" bg-white flex items-center rounded">
                   <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

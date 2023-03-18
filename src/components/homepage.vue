@@ -4,13 +4,13 @@
       <div class="w-full">
         <div class="flex flex-col-reverse lg:flex-row items-center">
           <div class="w-full lg:w-3/5 space-y-5 lg:mt-24 md:mt-10">
-            <h2 class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
+            <h2 class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-semibold leading-normal lg:leading-normal text-gray-900">
                 <!-- We are a team of qualified designers and developers with integrity from diverse
                 backgrounds, who take responsibility and deliver the best quality work. -->
                 Software Development <span class="text-blue-600">&</span> Consulting
             </h2>
             <p class="text-lg md:text-xl text-gray-500 lg:text-left md:text-center mt-0 md:mt-2">
-              Providing the simplest solution for the most complex problem
+              Providing the simplest solution for the most complex problem.
             </p>
             <div class="h-20 pt-5 items-center">
               <router-link
@@ -23,13 +23,14 @@
           <div class="lg:w-2/5 m-2">
             <img
               src="../assets/hero2.gif"
-              class="w-60 lg:w-full"
+              class="w-60 lg:w-full hidden lg:block"
               alt=""
             />
           </div>
         </div>
       </div>
       <ourservices />
+      <ourapproach />
       <whoweare />
       <!-- <Questions /> -->
       
@@ -123,11 +124,13 @@
 
 <script>
 import ourservices from "./ourservices.vue";
+import ourapproach from "./ourapproach.vue";
 import whoweare from "./whoweare.vue";
 // import Questions from "./questions.vue";
 export default {
   components: {
     ourservices,
+    ourapproach,
     whoweare,
   },
 };

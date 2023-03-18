@@ -12,10 +12,10 @@
           <div class="flex items-center gap-x-6">
             <img class="h-16 w-16 rounded-full" :src="member.img" alt="">
             <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">{{ member.name }}</h3>
-              <p class="text-sm font-semibold leading-6 text-blue-700">{{ member.position }}</p>
+              <h3 class="text-xl font-semibold leading-7 tracking-tight text-gray-900">{{ member.name }}</h3>
+              <p class="text-md font-semibold leading-6 text-blue-700">{{ member.position }}</p>
               <p
-                class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal mt-4"
+                class="font-normal tracking-normal text-md text-left text-gray-500 leading-normal mt-4"
               >
                 {{ member.bio }}
               </p>

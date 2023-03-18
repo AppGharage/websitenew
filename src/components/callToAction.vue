@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-visible bg-gray-200">
+  <div class="relative overflow-visible bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
       <div class="flex flex-col lg:flex-row">
         <div class="flex flex-col-reverse lg:flex-row items-start md:items-center">

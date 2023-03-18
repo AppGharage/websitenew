@@ -5,14 +5,14 @@
           <h2
             class="font-semibold text-2xl md:text-5xl tracking-normal text-gray-900 text-left"
           >
-            Get in Touch.
+            Have a project in mind?
           </h2>
           <div class="flex flex-col">
-            <div class="border-4 border-green-200 w-1/3 mt-2"></div>
+            <div class="border-4 border-blue-400 w-1/3 mt-2"></div>
             
           </div>
-          <p class="text-xl text-gray-500">
-            Let us know how our software development and consulting services can help your business.
+          <p class="text-xl text-gray-900">
+            Let us know how can help you.
           </p>
           <div class="flex items-start space-x-5 text-base font-medium text-gray-500">
             <span
@@ -50,11 +50,11 @@
           </div>
         </div>
         <div class="w-full lg:w-1/2 md:mt-0 lg:px-10">
-          <h2
+          <!-- <h2
             class="font-semibold text-3xl tracking-normal text-gray-900 text-left"
           >
             Got an Idea ? Send us a message. 
-        </h2>
+        </h2> -->
           <form class="w-full space-y-5 pt-10 rounded-lg">
             <div>
               <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
