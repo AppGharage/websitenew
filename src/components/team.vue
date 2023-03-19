@@ -4,7 +4,7 @@
       <div class="max-w-2xl lg:mr-8">
         <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
         <p class="mt-4 text-lg leading-8 text-gray-600">
-          Making a <span class="font-semibold text-lg text-blue-700">positive difference</span> has always been at the heart of our leaders values and motivation.
+          Making a <span class="font-semibold text-lg text-blue-700">positive difference</span> has always been our leaders values and motivation.
         </p>
       </div>
       <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

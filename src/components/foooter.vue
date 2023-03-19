@@ -148,7 +148,7 @@
                     /></svg></span
                 ><span>26 Bimpong Street, Agbogba, Accra</span> -->
               </div>
-              <div class="font-light text-sm flex items-center space-x-2">
+              <div class="font-light text-sm flex items-center space-x-2 pb-4">
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
