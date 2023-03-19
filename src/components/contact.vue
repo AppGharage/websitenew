@@ -12,7 +12,7 @@
             
           </div>
           <p class="text-xl text-gray-900">
-            Let us know how can help you.
+            Let us know how we can help you.
           </p>
           <div class="flex items-start space-x-5 text-base font-medium text-gray-500">
             <span
