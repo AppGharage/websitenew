@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-20 pb-10">
+  <div class="pt-10 pb-10">
       <div class="max-w-screen-xl mx-auto pb-10 px-0 ">
         <h2 class="text-3xl md:text-4xl font-bold leading-relaxed text-black">Our Services</h2>
         <p class="max-w-4xl pt-4 px-0 text-xl text-gray-700">

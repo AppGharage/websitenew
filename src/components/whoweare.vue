@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="pt-20">
+    <div class="pt-10">
       <div class="max-w-screen-xl mx-auto px-0 ">
         <div class="w-full">
           <div class="max-w-4xl">
@@ -17,7 +17,7 @@
           <div class="pb-16">
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
               <div class="mt-4">
-                <img src="../assets/goal.png" class="m-6" alt="" />
+                <img src="../assets/goals.svg" class="m-6 h-14 w-14" alt="" />
                 <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
                   Goal Oriented
                 </p>
@@ -28,7 +28,7 @@
               </div>
 
               <div class="mt-4">
-                <img src="../assets/customer.png" class="m-6" alt="" />
+                <img src="../assets/customer.svg" class="m-6 h-14 w-14" alt="" />
                 <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
                   Customer Focused
                 </p>
@@ -39,7 +39,7 @@
               </div>
 
               <div class="mt-4">
-                <img src="../assets/innovative.png" class="m-6" alt="" />
+                <img src="../assets/innovative.svg" class="m-6 h-14 w-14" alt="" />
                 <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
                  Innovative Solutions
                 </p>
@@ -50,7 +50,7 @@
               </div>
 
               <div class="mt-4">
-                <img src="../assets/support.png" class="m-6" alt="" />
+                <img src="../assets/support.svg" class="m-6 h-14 w-14" alt="" />
                 <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
                   Friendly Support
                 </p>

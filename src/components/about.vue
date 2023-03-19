@@ -105,7 +105,7 @@
       <div class="mx-auto pb-16">
         <div class="relative mx-auto grid max-w-[40rem] grid-cols-1 gap-4 lg:max-w-none lg:grid-cols-2">
           <div class="flex mt-2">
-            <img src="../assets/overview.png" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/overview.svg" alt="" class="pt-2 h-14 w-14 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-2xl mb-2">
                 Overview
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-              <img src="../assets/story.png" alt="" class="h-20 w-20 mr-3">
+              <img src="../assets/story.svg" alt="" class="pt-2 h-14 w-14 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-2xl mb-2">
                   Our Story
@@ -134,7 +134,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/vision.png" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/vision.svg" alt="" class="pt-2 h-14 w-14 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-2xl mb-2">
                   Our Vision
@@ -146,7 +146,7 @@
             </div>
           </div>
           <div class="flex mt-4">
-            <img src="../assets/values.png" alt="" class="h-20 w-20 mr-3">
+            <img src="../assets/values.svg" alt="" class="pt-2 h-14 w-14 mr-3">
             <div class="leading-6">
               <h2 class="font-semibold text-2xl mb-2">
                 Our Values

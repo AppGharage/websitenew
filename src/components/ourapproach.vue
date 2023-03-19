@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="pt-20 pb-10">
+      <div class="pt-10 pb-10">
         <div class="max-w-screen-xl mx-auto px-0">
           <div class="bg-transparent w-full">
             <div class="max-w-4xl">

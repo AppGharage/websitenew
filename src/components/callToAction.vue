@@ -2,47 +2,49 @@
   <div class="relative overflow-visible bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
       <div class="flex flex-col lg:flex-row">
-        <div class="flex flex-col-reverse lg:flex-row items-start md:items-center">
-        <div class="lg:w-2/3 space-y-7 md:py-14 justify-center">
-            <h2
-              class="font-medium text-3xl lg:text-4xl text-gray-900 leading-normal lg:leading-normal text-left lg:text-left p-3 lg:p-0"
-            >
-              We are here to help you reach your <span class="text-blue-700">business goals</span> with <span class="text-blue-700">future-ready</span> software solutions.
-            </h2>
-            
-            <div class="flex">
-              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
-              <div class="">
-                <h2 class="font-medium text-xl">
-                  Get a world-class standard software
-                </h2>
-              </div>
-            </div>
-            <div class="flex">
-              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
-              <div class="">
-                <h2 class="font-medium text-xl">
-                    Get strategic advice
-                </h2>
-              </div>
-            </div>
-            <div class="flex">
-              <img src="../assets/check.png" alt="" class="h-10 w-10 mr-3">
-              <div class="">
-                <h2 class="font-medium text-xl">
-                  Modernize legacy software
-                </h2>
-              </div>
-            </div>
-
-            <div class="h-20 pt-5 ml-3 lg:ml-0">
-              <router-link
-                to="/contact"
-                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
-                >Got an Idea ? Let's Talk !</router-link
+        <div class="flex flex-col-reverse lg:flex-row items-start md:items-center pt-10 pb-10">
+          <div class="lg:w-2/3 space-y-7 md:py-14 justify-center">
+              <h2
+                class="font-medium text-3xl lg:text-4xl text-gray-900 leading-normal lg:leading-normal text-left lg:text-left p-3 lg:p-0"
               >
+                We are here to help you reach your <span class="text-blue-700">business goals</span> with <span class="text-blue-700">future-ready</span> software solutions.
+              </h2>
+              
+              <div class="pt-3">
+                <div class="flex pb-4">
+                  <img src="../assets/check.svg" alt="" class="h-10 w-10 mr-3">
+                  <div class="">
+                    <h2 class="font-medium text-xl">
+                      Get a world-class standard software
+                    </h2>
+                  </div>
+                </div>
+                <div class="flex pb-4">
+                  <img src="../assets/check.svg" alt="" class="h-10 w-10 mr-3">
+                  <div class="">
+                    <h2 class="font-medium text-xl">
+                        Get strategic advice
+                    </h2>
+                  </div>
+                </div>
+                <div class="flex pb-4">
+                  <img src="../assets/check.svg" alt="" class="h-10 w-10 mr-3">
+                  <div class="">
+                    <h2 class="font-medium text-xl">
+                      Modernize legacy software
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="h-20 pt-5 ml-3 lg:ml-0">
+                <router-link
+                  to="/contact"
+                  class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
+                  >Got an Idea ? Let's Talk !</router-link
+                >
+              </div>
             </div>
-          </div>
           <div class="items-center w-full md:w-1/3 py-0 md:py-10 hidden lg:block lg:flex">
             <img src="../assets/cta.gif" class="mx-auto w-80" alt="" />
           </div>
