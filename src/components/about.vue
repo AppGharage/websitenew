@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-20">
-    <div class="w-full flex flex-col-reverse lg:flex-row md:mt-20">
+    <div class="w-full flex lg:flex-row md:mt-20">
       <div class="w-full lg:w-3/5 space-y-5 md:my-auto flex flex-col">
-          <h2 class="text-4xl lg:text-5xl font-light lg:text-left md:text-center font-medium leading-normal lg:leading-normal text-gray-900">
+          <h2 class="text-4xl lg:text-5xl font-light md:text-left font-semibold leading-normal lg:leading-normal text-gray-900">
             We are a technology company creating <span class="text-blue-600">world-class</span> products.
           </h2>
           <div class="h-20 pt-10">
@@ -34,7 +34,7 @@
           </p> -->
       </div>
       <div class="w-full lg:w-2/5 md:flex">
-        <img src="../assets/worldclass.gif" class="w-full hidden lg:block" alt="" />
+        <img src="../assets/worldclass.gif" class="w-auto lg:w-full hidden md:block" alt="" />
       </div>
     </div>
 
@@ -127,7 +127,7 @@
                   Our Story
               </h2>
               <p class="text-lg text-gray-600">
-                AppGharage was founded in 2018 with a team of tech porfessionals and enthusiasts. Through AppGharage, Epay was birth which was a payment service 
+                AppGharage was founded in 2018 with a team of tech professionals and enthusiasts. Through AppGharage, Epay was birth which was a payment service 
                 provider and operated for 2 years succesfully with over 100 clients and $200,000 in process value within 14 months of operation.
                 Fast forward to building in-house ideas, we have launched <a href="https://jolinow.com/" class="text-blue-700 font-semibold">Jolinow.</a> 
               </p>

@@ -26,7 +26,7 @@
                     Web Application Development
                 </h2>
                 <p class="text-lg text-gray-800 leading-relaxed">
-                  Our web applications make it easier to create, update, 
+                  We design simple but elgant web applications make it easier to create, update, 
                   and maintain your software applications that run on the web.
                 </p>
               </div>

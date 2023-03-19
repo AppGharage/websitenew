@@ -15,7 +15,7 @@
   
           <div class="relative">
             <div class="pb-16 pt-8">
-              <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
+              <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 <div class="mt-4">
                   <img src="../assets/ideation.gif" class="mb-4 w-20 bg-green-200" alt="" />
                   <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
@@ -56,7 +56,7 @@
                   </p>
                   <p class="text-base text-gray-500">
                     We don't just build, we design aesthetic interfaces to charm your users
-                    and making user processes as simple as possible.
+                    and make user processes as simple as possible.
                   </p>
                 </div>
 

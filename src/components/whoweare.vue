@@ -15,7 +15,7 @@
 
         <div class="relative">
           <div class="pb-16">
-            <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
               <div class="mt-4">
                 <img src="../assets/goals.svg" class="m-6 h-14 w-14" alt="" />
                 <p class="font-semibold tracking-normal text-xl text-gray-900 mb-4">
