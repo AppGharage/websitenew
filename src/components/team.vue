@@ -35,13 +35,13 @@ export default {
       team: [
         {
           name: "Baffour Adu Boampong",
-          position: "co-Founder || CEO",
+          position: "Co-Founder || CEO",
           bio: "Software Engineer, Talent Manager and Community Builder.",
           img: "https://miro.medium.com/max/2400/1*5bQpLyeimQ4H1ihYXpE3Jw.jpeg",
         },
         {
           name: "Roberta Mawunyo Akoto",
-          position: "co-Founder || Product Manager",
+          position: "Co-Founder || Product Manager",
           bio: "Product Manager, Software Engineer, Writer, Community Builder and Volunteer.",
           img: "https://avatars.githubusercontent.com/u/33154097?v=4",
         },

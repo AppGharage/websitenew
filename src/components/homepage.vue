@@ -15,7 +15,7 @@
             <div class="h-20 pt-5 items-center">
               <router-link
                 to="/contact"
-                class="px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
+                class="shadow-lg px-5 py-3 text-white text-lg font-medium bg-blue-700 rounded-br-2xl"
                 >Let's Talk !</router-link
               >
             </div>
