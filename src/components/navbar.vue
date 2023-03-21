@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sticky top-0 z-20 w-full nav-fixed"
+    class="sticky top-0 z-20 nav-fixed"
     :class="[open ? 'bg-white shadow' : 'bg-none shadow-none']"
   >
     <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
@@ -13,29 +13,29 @@
         <div class="hidden lg:flex space-x-7 items-center">
           <ul class="navlinks inline-flex space-x-7 cursor-pointer">
             <li
-              class="border-b-2 border-transparent text-base hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
+              class="border-b-2 border-transparent text-base hover:border-blue-800 transistion ease-linear delay-100 focus:text-blue-700"
               :class="[
-                checkHome ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+                checkHome ? 'text-blue-700 font-semibold' : 'text-gray-700 font-medium',
               ]"
             >
-              <router-link to="/" class="hover:border-b-2 border-red-700">
+              <router-link to="/" class="">
                 Home
               </router-link>
             </li>
 
             <li
-              class="border-b-2 text-base border-transparent hover:border-red-800 focus:text-red-700"
+              class="border-b-2 text-base border-transparent hover:border-blue-800 focus:text-blue-700"
               :class="[
-                checkAbout ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+                checkAbout ? 'text-blue-700 font-semibold' : 'text-gray-700 font-medium',
               ]"
             >
-              <router-link to="/about"> About </router-link>
+              <router-link to="/about"> About us</router-link>
             </li>
             <li
-              class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
+              class="border-b-2 border-transparent hover:border-blue-800 focus:text-blue-700 text-base"
               :class="[
                 checkProjects
-                  ? 'text-red-700 font-semibold'
+                  ? 'text-blue-700 font-semibold'
                   : 'text-gray-700 font-medium',
               ]"
             >
@@ -44,8 +44,7 @@
           </ul>
           <router-link
             to="/contact"
-            class="px-6 py-3 font-medium text-base navlinks text-white rounded-md hover:shadow-md"
-            style="background-color: #b00000"
+            class="px-6 py-3 font-medium text-base navlinks text-white bg-blue-700 hover:shadow-md rounded-br-2xl"
             >Contact Us</router-link
           >
         </div>
@@ -119,9 +118,9 @@
           <div class="px-5 py-2 space-y-2 bg-white shadow dark-mode:bg-gray-800">
             <router-link
               to="/"
-              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-blue-700 focus:text-blue-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               href="#"
-              :class="[checkHome ? 'text-red-700' : 'text-gray-500']"
+              :class="[checkHome ? 'text-blue-700' : 'text-gray-500']"
             >
               <span>
                 <svg
@@ -142,8 +141,8 @@
               Home</router-link
             ><router-link
               to="/about"
-              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              :class="[checkAbout ? 'text-red-700' : 'text-gray-500']"
+              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-blue-700 focus:text-blue-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              :class="[checkAbout ? 'text-blue-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -163,8 +162,8 @@
             >
             <router-link
               to="/projects"
-              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              :class="[checkProjects ? 'text-red-700' : 'text-gray-500']"
+              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-blue-700 focus:text-blue-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              :class="[checkProjects ? 'text-blue-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -185,8 +184,7 @@
 
             <router-link to="/contact">
               <button
-                class="text-white w-full mt-4 mb-2 rounded-sm transition ease-linear delay-75 py-3 font-medium text-base text-center navlinks"
-                style="background-color: #b00000"
+                class="text-white w-full mt-4 mb-2 transition ease-linear delay-75 py-3 bg-blue-700 font-medium text-base text-center navlinks rounded-br-2xl"
               >
                 Contact Us
               </button>

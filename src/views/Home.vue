@@ -4,27 +4,27 @@
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <homepageVue class="mt-10 mb-16 md:mb-24" />
-    <ctaVue class="animate__fadeInUp" ctaimg="ctaimage.svg" />
-    <Foooter />
+    <homepage class="mt-10 mb-16 md:mb-24" />
+    <Cta class="animate__fadeInUp" ctaimg="ctaimage.svg" />
+    <foooter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
-import homepageVue from "../components/homepage.vue";
-import ctaVue from "../components/cta.vue";
+import homepage from "../components/homepage.vue";
+import Cta from "../components/callToAction.vue";
 import Navbar from "../components/navbar.vue";
-import Foooter from "../components/foooter.vue";
+import foooter from "../components/foooter.vue";
 
 export default {
   name: "Home",
   components: {
-    homepageVue,
-    ctaVue,
+    homepage,
+    Cta,
     Navbar,
-    Foooter,
+    foooter,
   },
   data() {
     return {
